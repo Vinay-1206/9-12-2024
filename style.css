@@ -1,0 +1,28 @@
+.parent>p {
+    color: blue;
+}
+
+.container>p {
+    color: red;
+}
+
+.indirect p {
+    color: red;
+}
+
+.space p {
+    background-color: black;
+    color: white;
+}
+
+.x p {
+    color: green;
+}
+
+h1~p {
+    color: blue;
+}
+
+h1+p {
+    color: red;
+}
